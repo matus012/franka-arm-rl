@@ -4,7 +4,10 @@
 random position and rotation and carry it to a random point in the air, even when the cube's weight and friction
 change every episode. Trained in Isaac Lab 3.0 (Newton / MuJoCo-Warp physics) on one laptop GPU (RTX 4060, 8 GB).
 
-![final policy: 9 random episodes](videos/final/readme_grid.gif)
+[![hand-written controller (left) vs trained RL policy (right)](videos/final/scripted_vs_rl.gif)](videos/final/scripted_vs_rl_side_by_side.mp4)
+
+*Left: a hand-written controller. Right: the trained RL policy. Both pick the cube up and hold it in the target box,
+and the trained policy gets there in about half the time. (Two random episodes; click for the full 8 s video.)*
 
 | final policy, everything randomized | success (cube within 3 cm of target) | clean grasp | table hits | median distance to target |
 |---|---|---|---|---|
@@ -79,6 +82,8 @@ The RL policy ends up **about twice as fast** as the scripted controller
 ---
 
 ## Videos
+![final policy: 9 random episodes](videos/final/readme_grid.gif)
+
 - [Final policy, 3×3 grid](videos/p6/p6_closeup_grid_3x3.mp4) · [single episode, close-up](videos/p6/p6_single_success_closeup.mp4) · [wide](videos/final/final_single_success_wide.mp4)
 - [Scripted controller vs RL policy](videos/final/scripted_vs_rl_side_by_side.mp4)
 - [Curriculum: phase 2 → 6](videos/curriculum/curriculum_phase2_to_6.mp4)

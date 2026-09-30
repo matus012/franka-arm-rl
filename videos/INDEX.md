@@ -23,7 +23,7 @@ DESCEND; 6 episodes dropped and re-grasped). None occurred in the recorded episo
 
 ## Comparisons
 **Scripted vs RL:** `videos/final/scripted_vs_rl_side_by_side.mp4`. Left: the hand-written controller (+ reflex);
-right: the RL policy. Same world and episode. Both succeed; the RL policy is about twice as fast:
+right: the RL policy. Same world (full variation); the two sides are separate random episodes. Both succeed; the RL policy is about twice as fast:
 - at 1.22 s the scripted arm is still descending while RL is lifting
 - at 3.02 s the scripted arm is lifting while RL is in HOLD
 
