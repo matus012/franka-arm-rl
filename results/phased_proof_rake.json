@@ -1,0 +1,109 @@
+{
+  "mode": "rake",
+  "task": "LiftRL-Phased-Fixed-v0",
+  "episodes": 200,
+  "seed": 12345,
+  "episode_steps": 400,
+  "funnel_pct": {
+    "hover": 100.0,
+    "descend": 0.0,
+    "close": 0.0,
+    "lift": 0.0,
+    "carry": 0.0,
+    "hold": 0.0
+  },
+  "max_phase_counts": [
+    200,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "final_phase_counts": [
+    200,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "episodes_with_drop": 0,
+  "success": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "success_5cm": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "clean": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "lift": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "slam": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "jam": {
+    "count": 200,
+    "rate": 1.0,
+    "ci95": [
+      0.9811539940816791,
+      1.0
+    ]
+  },
+  "table_contact": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.018846005918320894
+    ]
+  },
+  "final_dist_median_m": 0.3648538589477539,
+  "return_mean": -2.159968376159668,
+  "return_quantiles_5_50_95": [
+    -2.1772,
+    -2.1706,
+    -2.1237
+  ],
+  "return_by_term_mean": {
+    "phase_level": 9.366,
+    "entry_bonus": 0.0,
+    "hold_bonus": 0.0,
+    "table": 0.0,
+    "palm": -5.82,
+    "push": -5.7,
+    "drop": 0.0,
+    "low_fast": -0.005,
+    "action_rate": -0.0,
+    "joint_vel": -0.001
+  },
+  "push_before_liftoff_median_m": 0.022081201896071434,
+  "nan_guard_events": 0
+}

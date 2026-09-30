@@ -1,0 +1,787 @@
+{
+  "recorded_at": "2026-09-30T01:37:51",
+  "task": "LiftRL-Phased-P4-TS-v0",
+  "run_dir": "logs/rsl_rl/lift_rl/2026-09-30_00-38-56_p4_a1",
+  "rule": "section 16.5: max validation success at 3 cm, ties -> clean rate",
+  "val_seed": 1001,
+  "episodes_per_checkpoint": 200,
+  "pick": {
+    "iteration": 2850,
+    "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2850.pt",
+    "clean": 1.0,
+    "success": 1.0,
+    "success_5cm": 1.0,
+    "lift": 1.0,
+    "slam": 0.0,
+    "jam": 0.0,
+    "liftoff": 1.0,
+    "table_contact": 0.0,
+    "funnel": {
+      "hover": 1.0,
+      "descend": 1.0,
+      "close": 1.0,
+      "lift": 1.0,
+      "carry": 1.0,
+      "hold": 1.0
+    },
+    "clean_ci95": [
+      0.9811539940816791,
+      1.0
+    ],
+    "final_dist_median_m": 0.0007004154031164944
+  },
+  "scores": [
+    {
+      "iteration": 2500,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2500.pt",
+      "clean": 0.745,
+      "success": 0.945,
+      "success_5cm": 0.945,
+      "lift": 0.945,
+      "slam": 0.005,
+      "jam": 0.035,
+      "liftoff": 0.955,
+      "table_contact": 0.01,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.955,
+        "close": 0.955,
+        "lift": 0.955,
+        "carry": 0.955,
+        "hold": 0.955
+      },
+      "clean_ci95": [
+        0.6803694869280502,
+        0.8003959701719726
+      ],
+      "final_dist_median_m": 0.0014674687990918756
+    },
+    {
+      "iteration": 2550,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2550.pt",
+      "clean": 0.905,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.8563973488560237,
+        0.9383373863501365
+      ],
+      "final_dist_median_m": 0.0010955159086734056
+    },
+    {
+      "iteration": 2600,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2600.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006504887714982033
+    },
+    {
+      "iteration": 2650,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2650.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.000874931167345494
+    },
+    {
+      "iteration": 2700,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2700.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0008318221662193537
+    },
+    {
+      "iteration": 2750,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2750.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0010304278694093227
+    },
+    {
+      "iteration": 2800,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2800.pt",
+      "clean": 0.99,
+      "success": 0.995,
+      "success_5cm": 0.995,
+      "lift": 0.995,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 0.995,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.995,
+        "close": 0.995,
+        "lift": 0.995,
+        "carry": 0.995,
+        "hold": 0.995
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0010650197509676218
+    },
+    {
+      "iteration": 2850,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2850.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.0007004154031164944
+    },
+    {
+      "iteration": 2900,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2900.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0009017545962706208
+    },
+    {
+      "iteration": 2950,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_2950.pt",
+      "clean": 0.965,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9295285391333187,
+        0.9829446753626429
+      ],
+      "final_dist_median_m": 0.0009221870568580925
+    },
+    {
+      "iteration": 3000,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3000.pt",
+      "clean": 0.975,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9428208558483829,
+        0.9892754385292123
+      ],
+      "final_dist_median_m": 0.0009252489544451237
+    },
+    {
+      "iteration": 3050,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3050.pt",
+      "clean": 0.94,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.8980673646931491,
+        0.9653481500987285
+      ],
+      "final_dist_median_m": 0.0005756660830229521
+    },
+    {
+      "iteration": 3100,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3100.pt",
+      "clean": 0.995,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9722256001302286,
+        0.999116854010634
+      ],
+      "final_dist_median_m": 0.0007509744027629495
+    },
+    {
+      "iteration": 3150,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3150.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0007438345346599817
+    },
+    {
+      "iteration": 3200,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3200.pt",
+      "clean": 0.995,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9722256001302286,
+        0.999116854010634
+      ],
+      "final_dist_median_m": 0.0008064453140832484
+    },
+    {
+      "iteration": 3250,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3250.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006988773820921779
+    },
+    {
+      "iteration": 3300,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3300.pt",
+      "clean": 0.975,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9428208558483829,
+        0.9892754385292123
+      ],
+      "final_dist_median_m": 0.0008426830172538757
+    },
+    {
+      "iteration": 3350,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3350.pt",
+      "clean": 0.97,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9361048802675267,
+        0.9861798741692518
+      ],
+      "final_dist_median_m": 0.0007327122148126364
+    },
+    {
+      "iteration": 3400,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3400.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006361331325024366
+    },
+    {
+      "iteration": 3450,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3450.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0004488760605454445
+    },
+    {
+      "iteration": 3500,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3500.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0007417326560243964
+    },
+    {
+      "iteration": 3550,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3550.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006781034753657877
+    },
+    {
+      "iteration": 3600,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3600.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006199778290465474
+    },
+    {
+      "iteration": 3650,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3650.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0006890628719702363
+    },
+    {
+      "iteration": 3700,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3700.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0006513749249279499
+    },
+    {
+      "iteration": 3750,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3750.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0005718213506042957
+    },
+    {
+      "iteration": 3800,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3800.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0009715660125948489
+    },
+    {
+      "iteration": 3850,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3850.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.000828087329864502
+    },
+    {
+      "iteration": 3900,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3900.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.0009179298067465425
+    },
+    {
+      "iteration": 3949,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-30_00-38-56_p4_a1\\model_3949.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0008493411005474627
+    }
+  ],
+  "nan_guard_events": 0,
+  "wall_s": 344.3
+}

@@ -1,0 +1,454 @@
+{
+ "task": "LiftRL-Phased-P5-TS-v0",
+ "episodes_per_cell": 200,
+ "seed": 12345,
+ "masses": [
+  0.1,
+  0.216,
+  0.35,
+  0.5
+ ],
+ "frictions": [
+  0.5,
+  0.8,
+  1.25
+ ],
+ "policies": {
+  "phase5": "logs/rsl_rl/lift_rl/2026-09-30_01-40-53_p5_a1/model_3950.pt",
+  "phase6": "logs/rsl_rl/lift_rl/2026-09-30_02-42-28_p6_a1/model_5000.pt"
+ },
+ "cells": [
+  {
+   "policy": "phase5",
+   "mass": 0.1,
+   "friction": 0.5,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.0015700405929237604
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.1,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0014897858491167426
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.1,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.0015063846949487925
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.216,
+   "friction": 0.5,
+   "success": 0.995,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 0.995,
+   "success_ci95": [
+    0.9722256001302286,
+    0.999116854010634
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.0014253733679652214
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.216,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0015224403468891978
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.216,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 0.995,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.001458065351471305
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.35,
+   "friction": 0.5,
+   "success": 0.885,
+   "clean": 0.99,
+   "table_contact": 0.0,
+   "lift": 0.925,
+   "success_ci95": [
+    0.8333517476611362,
+    0.9221368277817569
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.0016946521354839206
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.35,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 0.99,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0015494558028876781
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.35,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 0.995,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.0014444051776081324
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.5,
+   "friction": 0.5,
+   "success": 0.145,
+   "clean": 0.71,
+   "table_contact": 0.07,
+   "lift": 0.225,
+   "success_ci95": [
+    0.1028928513530641,
+    0.20048781284894374
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.3743833601474762
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.5,
+   "friction": 0.8,
+   "success": 0.985,
+   "clean": 0.995,
+   "table_contact": 0.0,
+   "lift": 0.985,
+   "success_ci95": [
+    0.9568335194437211,
+    0.9948858548155076
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0015044126193970442
+  },
+  {
+   "policy": "phase5",
+   "mass": 0.5,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 0.99,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.00160783133469522
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.1,
+   "friction": 0.5,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.001100113382562995
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.1,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.001139425439760089
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.1,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.09999999403953552,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.0011691739782691002
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.216,
+   "friction": 0.5,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.0012285232078284025
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.216,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0011586210457608104
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.216,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.2160000056028366,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.0011419493239372969
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.35,
+   "friction": 0.5,
+   "success": 1.0,
+   "clean": 0.995,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.001478948863223195
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.35,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0011922786943614483
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.35,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.3499999940395355,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.001213855342939496
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.5,
+   "friction": 0.5,
+   "success": 0.315,
+   "clean": 0.765,
+   "table_contact": 0.045,
+   "lift": 0.395,
+   "success_ci95": [
+    0.25462218077944276,
+    0.38235084141033604
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 0.5
+   },
+   "final_dist_median_m": 0.3225173354148865
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.5,
+   "friction": 0.8,
+   "success": 1.0,
+   "clean": 1.0,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 0.7999999523162842
+   },
+   "final_dist_median_m": 0.0014702980406582355
+  },
+  {
+   "policy": "phase6",
+   "mass": 0.5,
+   "friction": 1.25,
+   "success": 1.0,
+   "clean": 0.985,
+   "table_contact": 0.0,
+   "lift": 1.0,
+   "success_ci95": [
+    0.9811539940816791,
+    1.0
+   ],
+   "applied": {
+    "cube_mass_kg_mean": 0.5,
+    "cube_mu_mean": 1.25
+   },
+   "final_dist_median_m": 0.0013910015113651752
+  }
+ ]
+}

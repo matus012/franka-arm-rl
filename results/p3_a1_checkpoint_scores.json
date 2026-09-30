@@ -1,0 +1,787 @@
+{
+  "recorded_at": "2026-09-30T00:35:45",
+  "task": "LiftRL-Phased-P3-TS-v0",
+  "run_dir": "logs/rsl_rl/lift_rl/2026-09-29_23-39-14_p3_a1",
+  "rule": "section 16.5: max validation success at 3 cm, ties -> clean rate",
+  "val_seed": 1001,
+  "episodes_per_checkpoint": 200,
+  "pick": {
+    "iteration": 2400,
+    "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2400.pt",
+    "clean": 1.0,
+    "success": 1.0,
+    "success_5cm": 1.0,
+    "lift": 1.0,
+    "slam": 0.0,
+    "jam": 0.0,
+    "liftoff": 1.0,
+    "table_contact": 0.0,
+    "funnel": {
+      "hover": 1.0,
+      "descend": 1.0,
+      "close": 1.0,
+      "lift": 1.0,
+      "carry": 1.0,
+      "hold": 1.0
+    },
+    "clean_ci95": [
+      0.9811539940816791,
+      1.0
+    ],
+    "final_dist_median_m": 0.0006560260080732405
+  },
+  "scores": [
+    {
+      "iteration": 1500,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1500.pt",
+      "clean": 0.0,
+      "success": 0.0,
+      "success_5cm": 0.0,
+      "lift": 0.0,
+      "slam": 0.045,
+      "jam": 0.0,
+      "liftoff": 0.0,
+      "table_contact": 0.045,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.01,
+        "close": 0.0,
+        "lift": 0.0,
+        "carry": 0.0,
+        "hold": 0.0
+      },
+      "clean_ci95": [
+        0.0,
+        0.018846005918320894
+      ],
+      "final_dist_median_m": 0.3774983286857605
+    },
+    {
+      "iteration": 1550,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1550.pt",
+      "clean": 0.01,
+      "success": 0.01,
+      "success_5cm": 0.01,
+      "lift": 0.01,
+      "slam": 0.025,
+      "jam": 0.0,
+      "liftoff": 0.01,
+      "table_contact": 0.025,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.025,
+        "close": 0.01,
+        "lift": 0.01,
+        "carry": 0.01,
+        "hold": 0.01
+      },
+      "clean_ci95": [
+        0.0027466006037749346,
+        0.03572248519617954
+      ],
+      "final_dist_median_m": 0.3762606680393219
+    },
+    {
+      "iteration": 1600,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1600.pt",
+      "clean": 0.01,
+      "success": 0.01,
+      "success_5cm": 0.01,
+      "lift": 0.01,
+      "slam": 0.015,
+      "jam": 0.0,
+      "liftoff": 0.01,
+      "table_contact": 0.015,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.04,
+        "close": 0.01,
+        "lift": 0.01,
+        "carry": 0.01,
+        "hold": 0.01
+      },
+      "clean_ci95": [
+        0.0027466006037749346,
+        0.03572248519617954
+      ],
+      "final_dist_median_m": 0.3762606382369995
+    },
+    {
+      "iteration": 1650,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1650.pt",
+      "clean": 0.005,
+      "success": 0.005,
+      "success_5cm": 0.005,
+      "lift": 0.005,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 0.02,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.06,
+        "close": 0.005,
+        "lift": 0.005,
+        "carry": 0.005,
+        "hold": 0.005
+      },
+      "clean_ci95": [
+        0.0008831459893662054,
+        0.02777439986977148
+      ],
+      "final_dist_median_m": 0.3774982988834381
+    },
+    {
+      "iteration": 1700,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1700.pt",
+      "clean": 0.015,
+      "success": 0.015,
+      "success_5cm": 0.015,
+      "lift": 0.015,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 0.02,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.16,
+        "close": 0.015,
+        "lift": 0.015,
+        "carry": 0.015,
+        "hold": 0.015
+      },
+      "clean_ci95": [
+        0.005114145184492387,
+        0.043166480556278884
+      ],
+      "final_dist_median_m": 0.37653157114982605
+    },
+    {
+      "iteration": 1750,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1750.pt",
+      "clean": 0.195,
+      "success": 0.25,
+      "success_5cm": 0.25,
+      "lift": 0.25,
+      "slam": 0.0,
+      "jam": 0.01,
+      "liftoff": 0.27,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.355,
+        "close": 0.25,
+        "lift": 0.25,
+        "carry": 0.25,
+        "hold": 0.25
+      },
+      "clean_ci95": [
+        0.14605441564505764,
+        0.25544164796511815
+      ],
+      "final_dist_median_m": 0.34346240758895874
+    },
+    {
+      "iteration": 1800,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1800.pt",
+      "clean": 0.385,
+      "success": 0.45,
+      "success_5cm": 0.45,
+      "lift": 0.45,
+      "slam": 0.01,
+      "jam": 0.015,
+      "liftoff": 0.45,
+      "table_contact": 0.01,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.555,
+        "close": 0.45,
+        "lift": 0.45,
+        "carry": 0.45,
+        "hold": 0.45
+      },
+      "clean_ci95": [
+        0.3203319691791383,
+        0.4540026121820756
+      ],
+      "final_dist_median_m": 0.3324568271636963
+    },
+    {
+      "iteration": 1850,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1850.pt",
+      "clean": 0.475,
+      "success": 0.595,
+      "success_5cm": 0.595,
+      "lift": 0.6,
+      "slam": 0.0,
+      "jam": 0.035,
+      "liftoff": 0.6,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.665,
+        "close": 0.6,
+        "lift": 0.6,
+        "carry": 0.6,
+        "hold": 0.595
+      },
+      "clean_ci95": [
+        0.4069150074009861,
+        0.54402729289493
+      ],
+      "final_dist_median_m": 0.0043201446533203125
+    },
+    {
+      "iteration": 1900,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1900.pt",
+      "clean": 0.745,
+      "success": 0.82,
+      "success_5cm": 0.82,
+      "lift": 0.82,
+      "slam": 0.0,
+      "jam": 0.02,
+      "liftoff": 0.82,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.84,
+        "close": 0.82,
+        "lift": 0.82,
+        "carry": 0.82,
+        "hold": 0.82
+      },
+      "clean_ci95": [
+        0.6803694869280502,
+        0.8003959701719726
+      ],
+      "final_dist_median_m": 0.002936194185167551
+    },
+    {
+      "iteration": 1950,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_1950.pt",
+      "clean": 0.825,
+      "success": 0.92,
+      "success_5cm": 0.92,
+      "lift": 0.92,
+      "slam": 0.0,
+      "jam": 0.01,
+      "liftoff": 0.94,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 0.945,
+        "close": 0.92,
+        "lift": 0.92,
+        "carry": 0.92,
+        "hold": 0.92
+      },
+      "clean_ci95": [
+        0.7663545078991807,
+        0.8713955882539106
+      ],
+      "final_dist_median_m": 0.003278721123933792
+    },
+    {
+      "iteration": 2000,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2000.pt",
+      "clean": 0.835,
+      "success": 0.99,
+      "success_5cm": 0.99,
+      "lift": 0.995,
+      "slam": 0.0,
+      "jam": 0.005,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 0.995,
+        "lift": 0.995,
+        "carry": 0.995,
+        "hold": 0.985
+      },
+      "clean_ci95": [
+        0.7773410172613647,
+        0.8800321587733603
+      ],
+      "final_dist_median_m": 0.0024322113022208214
+    },
+    {
+      "iteration": 2050,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2050.pt",
+      "clean": 0.865,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.02,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.8107074954488287,
+        0.9055349202307972
+      ],
+      "final_dist_median_m": 0.0015101981116458774
+    },
+    {
+      "iteration": 2100,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2100.pt",
+      "clean": 0.89,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.015,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.8390720169908702,
+        0.9262280983928396
+      ],
+      "final_dist_median_m": 0.001067882520146668
+    },
+    {
+      "iteration": 2150,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2150.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0015935120172798634
+    },
+    {
+      "iteration": 2200,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2200.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0010320332366973162
+    },
+    {
+      "iteration": 2250,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2250.pt",
+      "clean": 0.965,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9295285391333187,
+        0.9829446753626429
+      ],
+      "final_dist_median_m": 0.001510542700998485
+    },
+    {
+      "iteration": 2300,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2300.pt",
+      "clean": 0.97,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.005,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9361048802675267,
+        0.9861798741692518
+      ],
+      "final_dist_median_m": 0.0006056101410649717
+    },
+    {
+      "iteration": 2350,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2350.pt",
+      "clean": 0.97,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9361048802675267,
+        0.9861798741692518
+      ],
+      "final_dist_median_m": 0.0007543034735135734
+    },
+    {
+      "iteration": 2400,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2400.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.0006560260080732405
+    },
+    {
+      "iteration": 2450,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2450.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.000538212014362216
+    },
+    {
+      "iteration": 2500,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2500.pt",
+      "clean": 0.995,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9722256001302286,
+        0.999116854010634
+      ],
+      "final_dist_median_m": 0.0005399070214480162
+    },
+    {
+      "iteration": 2550,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2550.pt",
+      "clean": 0.995,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9722256001302286,
+        0.999116854010634
+      ],
+      "final_dist_median_m": 0.0005342076765373349
+    },
+    {
+      "iteration": 2600,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2600.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.0009907141793519258
+    },
+    {
+      "iteration": 2650,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2650.pt",
+      "clean": 0.985,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9568335194437211,
+        0.9948858548155076
+      ],
+      "final_dist_median_m": 0.0005653921980410814
+    },
+    {
+      "iteration": 2700,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2700.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.0009863870218396187
+    },
+    {
+      "iteration": 2750,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2750.pt",
+      "clean": 0.99,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9642775148038205,
+        0.9972533993962251
+      ],
+      "final_dist_median_m": 0.0011965526500716805
+    },
+    {
+      "iteration": 2800,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2800.pt",
+      "clean": 0.98,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9497121344948062,
+        0.9921956998236058
+      ],
+      "final_dist_median_m": 0.0008155470131896436
+    },
+    {
+      "iteration": 2850,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2850.pt",
+      "clean": 0.975,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9428208558483829,
+        0.9892754385292123
+      ],
+      "final_dist_median_m": 0.0010087452828884125
+    },
+    {
+      "iteration": 2900,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2900.pt",
+      "clean": 0.975,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9428208558483829,
+        0.9892754385292123
+      ],
+      "final_dist_median_m": 0.0007868877146393061
+    },
+    {
+      "iteration": 2949,
+      "checkpoint": "logs\\rsl_rl\\lift_rl\\2026-09-29_23-39-14_p3_a1\\model_2949.pt",
+      "clean": 1.0,
+      "success": 1.0,
+      "success_5cm": 1.0,
+      "lift": 1.0,
+      "slam": 0.0,
+      "jam": 0.0,
+      "liftoff": 1.0,
+      "table_contact": 0.0,
+      "funnel": {
+        "hover": 1.0,
+        "descend": 1.0,
+        "close": 1.0,
+        "lift": 1.0,
+        "carry": 1.0,
+        "hold": 1.0
+      },
+      "clean_ci95": [
+        0.9811539940816791,
+        1.0
+      ],
+      "final_dist_median_m": 0.000544192036613822
+    }
+  ],
+  "nan_guard_events": 0,
+  "wall_s": 343.5
+}

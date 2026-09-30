@@ -1,0 +1,140 @@
+{
+  "mode": "clean",
+  "action_noise": 0.1,
+  "task": "LiftRL-Phased-Fixed-v0",
+  "episodes": 64,
+  "seed": 11,
+  "episode_steps": 400,
+  "funnel_pct": {
+    "hover": 100.0,
+    "descend": 100.0,
+    "close": 67.2,
+    "lift": 67.2,
+    "carry": 64.1,
+    "hold": 43.8
+  },
+  "max_phase_counts": [
+    0,
+    21,
+    0,
+    2,
+    13,
+    28
+  ],
+  "final_phase_counts": [
+    5,
+    21,
+    0,
+    2,
+    13,
+    23
+  ],
+  "episodes_with_drop": 5,
+  "success": {
+    "count": 22,
+    "rate": 0.34375,
+    "ci95": [
+      0.2392297503546903,
+      0.46596588182379606
+    ]
+  },
+  "success_5cm": {
+    "count": 28,
+    "rate": 0.4375,
+    "ci95": [
+      0.32293817065427327,
+      0.5591400822171212
+    ]
+  },
+  "clean": {
+    "count": 38,
+    "rate": 0.59375,
+    "ci95": [
+      0.471449865045497,
+      0.7054327556474111
+    ]
+  },
+  "lift": {
+    "count": 38,
+    "rate": 0.59375,
+    "ci95": [
+      0.471449865045497,
+      0.7054327556474111
+    ]
+  },
+  "slam": {
+    "count": 1,
+    "rate": 0.015625,
+    "ci95": [
+      0.0027634707504014047,
+      0.08334298900290629
+    ]
+  },
+  "jam": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.056626022971156334
+    ]
+  },
+  "table_contact": {
+    "count": 1,
+    "rate": 0.015625,
+    "ci95": [
+      0.0027634707504014047,
+      0.08334298900290629
+    ]
+  },
+  "final_dist_median_m": 0.19845709204673767,
+  "return_mean": 22.446014404296875,
+  "return_quantiles_5_50_95": [
+    13.7804,
+    22.2095,
+    32.8104
+  ],
+  "return_by_term_mean": {
+    "phase_level": 23.394,
+    "entry_bonus": 0.137,
+    "hold_bonus": 0.106,
+    "table": -0.001,
+    "palm": -0.003,
+    "push": -0.388,
+    "drop": -0.008,
+    "low_fast": -0.028,
+    "near_fast": -0.743,
+    "action_rate": -0.012,
+    "joint_vel": -0.008
+  },
+  "push_before_liftoff_median_m": 0.010003987699747086,
+  "nan_guard_events": 0,
+  "grasp_pose_measured": {
+    "tcp_minus_cube_center_z_m_q05_50_95": [
+      -0.0037,
+      0.0018,
+      0.0066
+    ],
+    "at_grasp_confirmation_tcp_minus_cube_center_z_m_q05_50_95": [
+      -0.0038,
+      0.0014,
+      0.0075
+    ],
+    "at_grasp_confirmation_palm_gap_m_q05_50_95": [
+      0.0129,
+      0.0181,
+      0.0242
+    ],
+    "palm_gap_m_q05_50_95": [
+      0.013,
+      0.0185,
+      0.0233
+    ],
+    "note": "palm gap = hand-hull bottom (TCP + 3.74 cm) - cube top (cube center + 2.07 cm), at CLOSE entry"
+  },
+  "squeeze_slip_m_q05_50_95_max": [
+    0.0036,
+    0.0104,
+    0.0888,
+    0.1014
+  ]
+}

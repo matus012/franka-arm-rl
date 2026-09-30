@@ -1,0 +1,9 @@
+{
+ "phase2_fixed_seed1": "logs/rsl_rl/lift_rl/2026-09-29_22-31-41_s16_run5/model_1450.pt",
+ "phase2_fixed_seed2": "logs/rsl_rl/lift_rl/2026-09-30_03-52-40_p2_seed2/model_1450.pt",
+ "phase2_fixed_seed3": "logs/rsl_rl/lift_rl/2026-09-30_04-48-56_p2_seed3/model_1000.pt",
+ "phase3_position": "logs/rsl_rl/lift_rl/2026-09-29_23-39-14_p3_a1/model_2450.pt",
+ "phase4_yaw": "logs/rsl_rl/lift_rl/2026-09-30_00-38-56_p4_a1/model_2850.pt",
+ "phase5_target": "logs/rsl_rl/lift_rl/2026-09-30_01-40-53_p5_a1/model_3950.pt",
+ "phase6_full_twist": "logs/rsl_rl/lift_rl/2026-09-30_02-42-28_p6_a1/model_5000.pt"
+}

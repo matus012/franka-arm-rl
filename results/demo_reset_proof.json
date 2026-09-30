@@ -1,0 +1,53 @@
+{
+ "task": "LiftRL-Phased-Fixed-TS-Demo-v0",
+ "envs": 256,
+ "restored_fraction": 1.0,
+ "per_restored_phase": {
+  "hover": {
+   "n": 50,
+   "same_phase_after_1_step": 1.0,
+   "forward_after_1_step": 0.0,
+   "fingertip_drift_1s_m_median": 0.0065
+  },
+  "descend": {
+   "n": 41,
+   "same_phase_after_1_step": 1.0,
+   "forward_after_1_step": 0.0,
+   "fingertip_drift_1s_m_median": 0.0026
+  },
+  "close": {
+   "n": 28,
+   "same_phase_after_1_step": 1.0,
+   "forward_after_1_step": 0.0,
+   "fingertip_drift_1s_m_median": 0.0022
+  },
+  "lift": {
+   "n": 53,
+   "same_phase_after_1_step": 1.0,
+   "forward_after_1_step": 0.0,
+   "fingertip_drift_1s_m_median": 0.0014,
+   "cube_held_both_pads_after_1s": 1.0,
+   "cube_vs_fingertip_slip_1s_m_max": 0.0003,
+   "phase_after_1s_still_grasped": 1.0
+  },
+  "carry": {
+   "n": 45,
+   "same_phase_after_1_step": 0.867,
+   "forward_after_1_step": 0.133,
+   "fingertip_drift_1s_m_median": 0.01,
+   "cube_held_both_pads_after_1s": 1.0,
+   "cube_vs_fingertip_slip_1s_m_max": 0.0001,
+   "phase_after_1s_still_grasped": 1.0
+  },
+  "hold": {
+   "n": 39,
+   "same_phase_after_1_step": 1.0,
+   "forward_after_1_step": 0.0,
+   "fingertip_drift_1s_m_median": 0.0002,
+   "cube_held_both_pads_after_1s": 1.0,
+   "cube_vs_fingertip_slip_1s_m_max": 0.0001,
+   "phase_after_1s_still_grasped": 1.0
+  }
+ },
+ "nan_guard_events": 0
+}

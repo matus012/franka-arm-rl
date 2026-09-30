@@ -1,0 +1,217 @@
+{
+  "task": "LiftRL-Staged-v0",
+  "controller": "scripts/scripted_demo.py (phase state machine + DLS IK, joint-position actions)",
+  "eval_seed": 12345,
+  "num_envs": 1000,
+  "thresholds": {
+    "success_r": 0.03,
+    "success_r_loose": 0.05,
+    "lift_dz": 0.05,
+    "off_table_dz": 0.02,
+    "slam_n": 20.0,
+    "slam_n_sensitivity": [
+      10.0,
+      50.0
+    ],
+    "contact_n": 1.0,
+    "jam_steps": 10,
+    "clean_table_n": 20.0,
+    "clean_tilt_deg": 30.0,
+    "clean_descent_zone": 0.05,
+    "liftoff_dz": 0.01
+  },
+  "nan_guard_events": 0,
+  "wall_s": 9.3,
+  "episodes": 1000,
+  "success": {
+    "count": 956,
+    "rate": 0.956,
+    "ci95": [
+      0.9414479081796453,
+      0.9670619603095666
+    ]
+  },
+  "success_5cm": {
+    "count": 973,
+    "rate": 0.973,
+    "ci95": [
+      0.9610010105865644,
+      0.9813787433507103
+    ]
+  },
+  "lift": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "slam": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "jam": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "invalid": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "clean": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "clean_c1_no_table_hit": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "clean_c2_top_down": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "clean_c3_both_pads_at_liftoff": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "clean_c4_no_palm": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "liftoff": {
+    "count": 1000,
+    "rate": 1.0,
+    "ci95": [
+      0.9961731014136095,
+      1.0
+    ]
+  },
+  "slam_10N": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "slam_50N": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "final_dist_median_m": 0.0009034796385094523,
+  "final_dist_quartiles_m": [
+    0.0005670128739438951,
+    0.0016734495293349028
+  ],
+  "slam_or_jam": {
+    "count": 0,
+    "rate": 0.0,
+    "ci95": [
+      0.0,
+      0.003826898586390522
+    ]
+  },
+  "push_before_liftoff_median_m": 0.0023440602235496044,
+  "per_phase": {
+    "failures_by_phase_at_episode_end": {
+      "ended_in_hover": {
+        "count": 0,
+        "pct_of_episodes": 0.0
+      },
+      "ended_in_descend": {
+        "count": 0,
+        "pct_of_episodes": 0.0
+      },
+      "ended_in_close": {
+        "count": 0,
+        "pct_of_episodes": 0.0
+      },
+      "ended_in_lift": {
+        "count": 0,
+        "pct_of_episodes": 0.0,
+        "close_timed_out_without_both_pads": 0
+      },
+      "ended_in_carry": {
+        "count": 44,
+        "pct_of_episodes": 4.4,
+        "close_timed_out_without_both_pads": 0
+      },
+      "ended_in_hold": {
+        "count": 0,
+        "pct_of_episodes": 0.0,
+        "cube_not_held_at_end": 0,
+        "held_but_dist_ge_3cm": 0,
+        "held_dist_median_m": null,
+        "close_timed_out_without_both_pads": 0
+      }
+    },
+    "reached_phase_pct": {
+      "hover": 100.0,
+      "descend": 100.0,
+      "close": 100.0,
+      "lift": 100.0,
+      "carry": 100.0,
+      "hold": 90.1
+    },
+    "median_phase_entry_time_s": {
+      "hover": 0.0,
+      "descend": 1.06,
+      "close": 2.3000000000000003,
+      "lift": 2.38,
+      "carry": 3.1,
+      "hold": 4.4
+    },
+    "close_both_pads_pct": 100.0,
+    "not_clean_by_criterion": {
+      "clean_c1_no_table_hit": 0,
+      "clean_c2_top_down": 0,
+      "clean_c3_both_pads_at_liftoff": 0,
+      "clean_c4_no_palm": 0
+    },
+    "first_palm_contact_in_phase": {
+      "hover": 0,
+      "descend": 0,
+      "close": 0,
+      "lift": 0,
+      "carry": 0,
+      "hold": 0
+    }
+  }
+}
