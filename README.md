@@ -137,6 +137,9 @@ I directed the project: the task, the six-phase design, the sweet-spot claw, the
 trusting metrics and watch the videos. Most of the code was written by AI coding agents (Claude Code) working from my
 plans. Every result was checked against the saved evaluation files and video frames.
 
+## AI-assisted development
+AI coding agents wrote the code; I designed the project, reviewed the results and made the calls.
+
 ## License
 MIT for this repository's code ([LICENSE](LICENSE)). Isaac Lab-derived files keep their BSD-3-Clause headers. Third-party
 software and assets: [THIRD_PARTY.md](THIRD_PARTY.md). Robot and scene assets are loaded from NVIDIA's servers at runtime
