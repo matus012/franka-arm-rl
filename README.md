@@ -1,13 +1,17 @@
 # franka-arm-rl
 
-**My first reinforcement-learning manipulation project:** a Franka Panda arm learns, with PPO, to pick up a cube from a
-random position and rotation and carry it to a random point in the air, even when the cube's weight and friction
-change every episode. Trained in Isaac Lab 3.0 (Newton / MuJoCo-Warp physics) on one laptop GPU (RTX 4060, 8 GB).
+[![Demo (2 min 15 s): the RL expert learns to lift the cube, then a camera-only student learns it by imitation. Click to play.](docs/franka_arm_rl_vision_preview.gif)](https://matus012.github.io/franka-arm-rl/)
+
+**[▶ Play the demo (2:15, one video for both projects)](https://matus012.github.io/franka-arm-rl/)** — the preview above runs at 3× speed. File: [`docs/franka_arm_rl_vision.mp4`](docs/franka_arm_rl_vision.mp4) (9.2 MB).
 
 [![hand-written controller (left) vs trained RL policy (right)](videos/final/scripted_vs_rl.gif)](videos/final/scripted_vs_rl_side_by_side.mp4)
 
 *Left: a hand-written controller. Right: the trained RL policy. Both pick the cube up and hold it in the target box,
 and the trained policy gets there in about half the time. (Two random episodes; click for the full 8 s video.)*
+
+**My first reinforcement-learning manipulation project:** a Franka Panda arm learns, with PPO, to pick up a cube from a
+random position and rotation and carry it to a random point in the air, even when the cube's weight and friction
+change every episode. Trained in Isaac Lab 3.0 (Newton / MuJoCo-Warp physics) on one laptop GPU (RTX 4060, 8 GB).
 
 | final policy, everything randomized | success (cube within 3 cm of target) | clean grasp | table hits | median distance to target |
 |---|---|---|---|---|
